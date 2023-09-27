@@ -1,0 +1,10 @@
+num = int(input("Digite um valor para saber o seu fatorial: "))
+soma = 0
+total = 0
+nome = str(" ")
+while num != 0:
+    soma = num * num-1
+    num = num -1
+    total += soma
+   # nome = nome + num + "x"
+print("ola {} {}".format(nome, total))
